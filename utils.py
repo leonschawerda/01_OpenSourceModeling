@@ -25,3 +25,5 @@ Normalize Data Frame between -1 and 1 - USEFULL IF VALUES ARE >0
 def normalize_column(df, column):
     #rescaling by dividing by the maximum absolute value of the column
     df[column] = df[column] / df[column].abs().max()
+
+    return df
