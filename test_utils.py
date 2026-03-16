@@ -2,5 +2,19 @@
 from utils import celsius_to_fahrenheit
 
 def test_celsius_to_fahrenheit():
-    """Checks if 0C is really 32F -> conversion rate"""
+    #Checks if 0C is really 32F -> conversion rate
     assert celsius_to_fahrenheit(5) == 41
+
+import pandas as pd
+from utils import fill_missing_mean
+
+def test_fill_missing_mean():
+    df = pd.Dataframe({"test":[10,20,None]})
+
+    result = fill_missing_mean(df, "test")
+
+    assert result["test"].isnull().sum() == 0
+    #Checks if the column has any empty values
+
+    assert result.loc[2, "test"] == (10 + 20) / 2
+    #Checks if the set value is the mean of the other values
