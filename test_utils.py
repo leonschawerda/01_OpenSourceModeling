@@ -19,3 +19,14 @@ def test_fill_missing_mean():
 
     assert result.loc[2, "test"] == (10 + 20) / 2
     #Checks if the set value is the mean of the other values
+
+from utils import normalize_column
+
+def test_normalize_column():
+    df = pd.DataFrame({"temp":[2,4,6]})
+
+    result = normalize_column(df,"temp")
+
+    assert result.loc[0, "temp"] == 2/6
+    assert result.loc[1, "temp"] == 4/6
+    assert result.loc[2, "temp"] == 1
