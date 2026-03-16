@@ -6,7 +6,7 @@ This project is released under an MIT LICENSE. [![License: MIT](https://img.shie
 
 I Created this repository for the lecture Open-Source Energy System Modeling, TU Wien, VU 370.062.
 
-AI was used for structuring and coding syntax assistance. [![AIuse](https://img.shields.io/badge/AI_used-chatGPT-blue)]
+AI was used for structuring and coding syntax assistance. [![AIuse: cgatGPT](https://img.shields.io/badge/AI_used-chatGPT-blue)](chatgpt.com)
 
 ## Funtions
 
