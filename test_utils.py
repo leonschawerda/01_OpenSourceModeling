@@ -6,10 +6,11 @@ def test_celsius_to_fahrenheit():
     assert celsius_to_fahrenheit(5) == 41
 
 import pandas as pd
+
 from utils import fill_missing_mean
 
 def test_fill_missing_mean():
-    df = pd.Dataframe({"test":[10,20,None]})
+    df = pd.DataFrame({"test":[10,20,None]})
 
     result = fill_missing_mean(df, "test")
 
