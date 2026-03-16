@@ -11,10 +11,13 @@ AI was used for structuring and coding syntax assistance. [![AIuse: cgatGPT](htt
 ## Funtions
 
 1. celsius_to_fahrenheit()
+
    Converts a given temperature from degree Celsius into Fahrenheit.
-2. fill_missing_mean()
+3. fill_missing_mean()
+   
    Fills empty data points in a pandas.DataFrame with the column mean value.
-3. normalize_column()
+5. normalize_column()
+   
    Normalizes a column in between -1 and 1 by dividing by the absolute maximum value in the column.
    
 ## Installations
