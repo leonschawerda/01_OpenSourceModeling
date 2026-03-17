@@ -33,7 +33,8 @@ pytest
 
 ## Continuous Integration 
 
-Tests are automatically executed using GitHub Actions on every push. ![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+Tests are automatically executed using GitHub Actions on every push.
+
 
 
 
