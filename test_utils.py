@@ -1,11 +1,13 @@
+import pandas as pd
 
 from utils import celsius_to_fahrenheit
+from utils import normalize_column
+
 
 def test_celsius_to_fahrenheit():
     #Checks if 0C is really 32F -> conversion rate
     assert celsius_to_fahrenheit(5) == 41
 
-import pandas as pd
 
 from utils import fill_missing_mean
 
@@ -20,7 +22,6 @@ def test_fill_missing_mean():
     assert result.loc[2, "test"] == (10 + 20) / 2
     #Checks if the set value is the mean of the other values
 
-from utils import normalize_column
 
 def test_normalize_column():
     df = pd.DataFrame({"temp":[2,4,6]})
