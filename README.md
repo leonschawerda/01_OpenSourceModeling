@@ -31,9 +31,9 @@ Test for each function have been implemented.
 
 pytest
 
-## Continuous Integration ![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+## Continuous Integration 
 
-Tests are automatically executed using GitHub Actions on every push. 
+Tests are automatically executed using GitHub Actions on every push. ![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
 
 
 
