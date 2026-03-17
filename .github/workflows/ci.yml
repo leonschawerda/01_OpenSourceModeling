@@ -27,7 +27,8 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run linter
-      run: ruff
+      run: |
+        ruff check .
 
     - name: Install dependencies
       run: pip install pytest
