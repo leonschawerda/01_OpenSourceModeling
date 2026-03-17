@@ -26,7 +26,7 @@ def normalize_column(df, column):
     max_val = df[column].abs().max()
     
     if max_val == 0:
-    return df
+        return df
     
     df[column] = df[column] / max_val
     return df
