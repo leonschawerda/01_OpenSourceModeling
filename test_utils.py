@@ -7,7 +7,7 @@ from utils import normalize_column
 
 def test_celsius_to_fahrenheit():
     #Checks if 0C is really 32F -> conversion rate
-    assert celsius_to_fahrenheit(5) == 40
+    assert celsius_to_fahrenheit(5) == 41
 
 
 
