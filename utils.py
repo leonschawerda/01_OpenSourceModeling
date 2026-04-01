@@ -1,3 +1,5 @@
+import pandas
+import Numpy
 
 """
 Celsius - Fahrenheit converter
