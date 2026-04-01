@@ -8,7 +8,7 @@ I Created this repository for the lecture Open-Source Energy System Modeling, TU
 
 AI was used for structuring and coding syntax assistance. [![AIuse: cgatGPT](https://img.shields.io/badge/AI_used-chatGPT-blue)](chatgpt.com)
 
-## Funtions
+## Functions
 
 1. celsius_to_fahrenheit()
 
