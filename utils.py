@@ -1,5 +1,4 @@
 import pandas
-import Numpy
 #some additional comment
 
 """
