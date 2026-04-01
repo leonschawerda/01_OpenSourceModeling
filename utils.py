@@ -1,13 +1,12 @@
-import pandas
-#some additional comment
+#comment
 
 """
 Celsius - Fahrenheit converter
 """
 
-def celsius_to_fahrenheit(celsius):
+def celsius_to_fahrenheit(celsiu):
     #Converts Celsius into Fahrenheit
-    return (celsius*9/5) + 32
+    return (celsiu*9/5) + 32
 
 """
 Filling Data Frame NaN - set missing Data Points in column to mean value
